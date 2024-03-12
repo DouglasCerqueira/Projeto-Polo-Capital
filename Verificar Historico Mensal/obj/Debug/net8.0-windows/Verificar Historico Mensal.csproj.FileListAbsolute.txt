@@ -1,0 +1,25 @@
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\bin\Debug\net8.0-windows\Verificar Historico Mensal.exe
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\bin\Debug\net8.0-windows\Verificar Historico Mensal.deps.json
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\bin\Debug\net8.0-windows\Verificar Historico Mensal.runtimeconfig.json
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\bin\Debug\net8.0-windows\Verificar Historico Mensal.dll
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\bin\Debug\net8.0-windows\Verificar Historico Mensal.pdb
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verificar Historico Mensal.csproj.AssemblyReference.cache
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verificar Historico Mensal_MarkupCompile.cache
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verificar Historico Mensal_MarkupCompile.lref
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verificar Historico Mensal.g.resources
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verificar Historico Mensal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verificar Historico Mensal.AssemblyInfoInputs.cache
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verificar Historico Mensal.AssemblyInfo.cs
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verificar Historico Mensal.csproj.CoreCompileInputs.cache
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verifica.110D45B7.Up2Date
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verificar Historico Mensal.dll
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\refint\Verificar Historico Mensal.dll
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verificar Historico Mensal.pdb
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Verificar Historico Mensal.genruntimeconfig.cache
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\ref\Verificar Historico Mensal.dll
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\Views\MainWindow.baml
+C:\Users\Douglas\Documents\Projeto\Verificar Historico Mensal\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

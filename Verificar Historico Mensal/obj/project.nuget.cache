@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IG/VWR10FzATDqum3UypbjRpGcY07mZHwYu4qTP1HsAXAYqhc4Mvd0s5Wz50vWnSneLOJvAr/sWWNRgokz7ibw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Douglas\\Documents\\Projeto\\Verificar Historico Mensal\\Verificar Historico Mensal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Douglas\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\Douglas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

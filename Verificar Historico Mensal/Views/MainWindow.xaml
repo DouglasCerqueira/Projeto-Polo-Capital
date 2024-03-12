@@ -1,0 +1,29 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Verificar_Historico_Mensal.Views"
+        xmlns:ViewModels="clr-namespace:Verificar_Historico_Mensal.ViewModels" x:Class="Verificar_Historico_Mensal.Views.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="850">
+    <Window.DataContext>
+        <ViewModels:MainViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Label Content="Tipo de Indicador:" Margin="6,0,14,20"/>
+        <ComboBox ItemsSource="{Binding IndicatorsType}"
+              SelectedItem="{Binding SelectedIndicatorsType}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,26,0,0" Width="100"/>
+
+        <Label Content="Data Início:" Margin="8,53,-8,-53"/>
+        <DatePicker SelectedDate="{Binding Indicator.StartDate}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,78,0,0"/>
+
+        <Label Content="Data Fim:" Margin="7,107,-7,-107"/>
+        <DatePicker SelectedDate="{Binding Indicator.EndDate}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,131,0,0"/>
+
+        <Button Content="Obter Dados" Command="{Binding DataCommand}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,172,0,0"/>
+        <Button Content="Exportar para CSV" Command="{Binding ExportCommand}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,200,0,0" />
+
+        <DataGrid ItemsSource="{Binding DataList}" AutoGenerateColumns="True" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="124,8,0,0" Height="413"/>
+    </Grid>
+</Window>
