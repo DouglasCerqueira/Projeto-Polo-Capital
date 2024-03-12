@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -23,6 +23,7 @@ namespace Verificar_Historico_Mensal.ViewModels
             IndicatorsType = new List<string> { "IPCA", "IGP-M", "Selic" };
             DataList = new ObservableCollection<DataAPI>();
             ExportCommand = new RelayCommand(Csv);
+            IsDataGridVisible = false;
         }
 
 
@@ -66,6 +67,18 @@ namespace Verificar_Historico_Mensal.ViewModels
             }
         }
 
+        private bool _isDataGridVisible;
+        public bool IsDataGridVisible
+        {
+            get { return _isDataGridVisible; }
+            set
+            {
+                _isDataGridVisible = value;
+                OnPropertyChanged(nameof(IsDataGridVisible));
+            }
+        }
+
+
         public ICommand ExportCommand { get; private set; }
 
         private bool CanFetchData()
@@ -102,6 +115,7 @@ namespace Verificar_Historico_Mensal.ViewModels
                         var filteredData = indicadorDataResponse.Value.Where(data => DateTime.Parse(data.Data) >= Indicator.StartDate && DateTime.Parse(data.Data) <= Indicator.EndDate);
 
                         DataList.Clear();
+                        IsDataGridVisible = true;
                         foreach (var data in filteredData)
                         {
                             DataList.Add(data);
@@ -145,7 +159,6 @@ namespace Verificar_Historico_Mensal.ViewModels
                 csvContent.AppendLine($"{item.Indicador},{item.Data},{item.DataReferencia},{item.Media},{item.Mediana},{item.DesvioPadrao},{item.Minimo},{item.Maximo},{item.NumeroRespondentes},{item.BaseCalculo}");
             }
 
-            // Escreve a string CSV em um arquivo
             File.WriteAllText(defaultFilePath, csvContent.ToString());
 
             MessageBox.Show("Os dados foram exportados com sucesso.", "Sucesso", MessageBoxButton.OK, MessageBoxImage.Information);
