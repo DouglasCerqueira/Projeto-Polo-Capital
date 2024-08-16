@@ -27,6 +27,8 @@ Funcionalidade:
 Observações:
 - É um projeto simples que pode vir ser modificado no futuro, caso necessário, contendo mais conhecimento e informações.
 
+![Texto Alternativo](https://prnt.sc/KAnvheANtARQ)
+
 
 
 
