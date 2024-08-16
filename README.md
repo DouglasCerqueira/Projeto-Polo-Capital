@@ -27,6 +27,8 @@ Funcionalidade:
 Observações:
 - É um projeto simples que pode vir ser modificado no futuro, caso necessário, contendo mais conhecimento e informações.
 
+![Screenshot_1](https://github.com/user-attachments/assets/7c99595d-dca6-41b6-9187-6d66e49a3d3b)
+
 
 
 
