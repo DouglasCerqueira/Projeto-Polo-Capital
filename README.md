@@ -27,7 +27,7 @@ Funcionalidade:
 Observações:
 - É um projeto simples que pode vir ser modificado no futuro, caso necessário, contendo mais conhecimento e informações.
 
-<img src="https://prnt.sc/p04PqQpbNJ3e" alt="Imagem APP">
+<img src="https://uploaddeimagens.com.br/imagens/0TNdtSE" alt="Imagem APP">
 
 
 
